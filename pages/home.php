@@ -1,7 +1,7 @@
 <h4>Djebel is in development</h4>
 <div>
     If you want to be invited to try <strong>Djebel</strong> when it's beta stable, fill out your details below.
-    By filling out your details below, you allow us to notify you about the app [GDPR stuff]
+    <br/>By filling out your details below, you allow us to notify you about the app [GDPR stuff]
 </div>
 
 <br/>
