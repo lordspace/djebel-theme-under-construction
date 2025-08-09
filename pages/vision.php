@@ -5,7 +5,7 @@ If you're interested fill out the form: <a href="https://forms.gle/Ku38XS7xB7M1u
 ======================================================================================
 
 WordPress is a great platform and even though it can solve 80% of the web development challenges it may not be the optimal solution for every project.
-I really love simplicity and minimalism so I decided to build a new open source app that's fast, lean and inspired by some of the awesome WordPress features.
+I really love simplicity and minimalism, so I decided to build a new open source app that's fast, lean and inspired by some of the awesome WordPress features.
 
 For example: hooks, shortcodes, simple plugin and theme structure
 
