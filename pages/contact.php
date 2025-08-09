@@ -15,5 +15,5 @@
         <p>Interested in sponsoring this project? We'd love to hear from you! <a href="https://orbisius.com/quick-contact/" target="_blank">Contact us</a> to discuss sponsorship opportunities.</p>
     </div>
 
-    [djebel-simple-newsletter title="Subscribe to our newsletter" render_agree=1 auto_focus=1]
+    [djebel-simple-newsletter title="Subscribe to our newsletter" render_agree=1 auto_focus=0]
 </div>
