@@ -144,7 +144,6 @@ body {
 .dj-app-menu-link:hover {
     background: var(--border-color);
     color: var(--text-primary);
-    transform: translateY(-1px);
     box-shadow: var(--shadow-sm);
 }
 
@@ -200,7 +199,7 @@ body {
 
 .dj-app-content a:hover {
     color: #1d4ed8;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Footer */
