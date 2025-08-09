@@ -1,4 +1,5 @@
-<pre class="vision-content" readonly="readonly">TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with a simple plugin and theme structure.
+<pre class="text-pre-content">
+    TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with a simple plugin and theme structure.
 If you're interested fill out the form: <a href="https://forms.gle/Ku38XS7xB7M1u5D59" target="_blank">https://forms.gle/Ku38XS7xB7M1u5D59</a>
 
 WordPress is a great platform and even though it can solve 80% of the web development challenges it may not be the optimal solution for every project.
@@ -6,7 +7,7 @@ I really love simplicity and minimalism, so I decided to build a new open source
 
 For example: hooks, shortcodes, simple plugin and theme structure
 
-The idea is to have a fast app that can be anything - cms, blog, brochure site, landing pages and that's still simple to use, to develop and very customizable via plugins of course.
+The idea is to have a fast app tha can be anything - cms, blog, brochure site, landing pages and that's still simple to use, to develop and very customizable via plugins of course.
 Also it can support multiple backends such as: text files, sqlite, pgsql, mysql etc. Why just limit it to MySQL/MariaDB?
 
 The core CMS would give you these screens.
