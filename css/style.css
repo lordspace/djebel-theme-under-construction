@@ -378,6 +378,21 @@ body {
     flex: 1;
 }
 
+/* Vision Page Styles */
+.vision-content {
+    width: 100%;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    line-height: 1.6;
+    color: var(--text-primary);
+}
+
 /* Responsive Newsletter */
 @media (max-width: 768px) {
     .newsletter-input-group {
