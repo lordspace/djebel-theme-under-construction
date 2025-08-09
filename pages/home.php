@@ -11,5 +11,5 @@
 <div>
     <br>
     In the meantime, you can check
-    <a href="https://djebel.com/cms/">Djebel Vision</a>
+    <a href="__SITE_WEB_PATH__/vision">Djebel Vision</a>
 </div>

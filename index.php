@@ -43,6 +43,11 @@ $page_obj = Dj_App_Page::getInstance();
             </nav>
         <?php } ?>
 
+        <!-- Navigation -->
+        <nav class="dj-app-menu-container">
+            [djebel_nav]
+        </nav>
+
         <!-- Main Content -->
         <main class="dj-app-content">
             <?php Dj_App_Hooks::doAction('app.page.content.render'); ?>
