@@ -36,21 +36,25 @@ $page_obj = Dj_App_Page::getInstance();
     <!-- Content Area -->
     <div class="content-area">
         
-        <!-- Navigation -->
-        <?php if (Dj_App_Hooks::hasAction('app.menu.render')) { ?>
-            <nav class="dj-app-menu-container">
-                <?php Dj_App_Hooks::doAction('app.menu.render'); ?>
-            </nav>
-        <?php } ?>
-
-        <!-- Navigation -->
-        <nav class="dj-app-menu-container">
-            [djebel_nav]
-        </nav>
-
-        <!-- Main Content -->
+        <!-- Main Content with Integrated Menu -->
         <main class="dj-app-content">
-            <?php Dj_App_Hooks::doAction('app.page.content.render'); ?>
+            <!-- Navigation Menu (now inside content) -->
+            <div class="dj-app-integrated-menu">
+                <?php if (Dj_App_Hooks::hasAction('app.menu.render')) { ?>
+                    <nav class="dj-app-menu-container">
+                        <?php Dj_App_Hooks::doAction('app.menu.render'); ?>
+                    </nav>
+                <?php } ?>
+
+                <nav class="dj-app-menu-container">
+                    [djebel_nav]
+                </nav>
+            </div>
+
+            <!-- Page Content -->
+            <div class="dj-app-page-content">
+                <?php Dj_App_Hooks::doAction('app.page.content.render'); ?>
+            </div>
         </main>
 
         <!-- Footer -->

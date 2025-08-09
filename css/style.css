@@ -31,11 +31,12 @@ body {
 .content-area {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 1rem 2rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 1rem;
 }
 
 /* Header Section */
@@ -92,12 +93,25 @@ body {
 
 /* Main Navigation Menu */
 .dj-app-menu-container {
-    background: var(--surface-color);
+    background: transparent;
     border-radius: 12px;
-    padding: 1.5rem;
-    margin: 2rem 0;
-    box-shadow: var(--shadow-md);
-    border: 1px solid var(--border-color);
+    padding: 1rem 0;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+}
+
+/* Integrated Menu Container */
+.dj-app-integrated-menu {
+    margin-bottom: 2rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.dj-app-integrated-menu .dj-app-menu-container {
+    background: transparent;
+    padding: 0.5rem 0;
+    margin: 0;
 }
 
 .dj-app-menu-nav {
@@ -145,9 +159,14 @@ body {
     background: var(--surface-color);
     border-radius: 12px;
     padding: 2rem;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     box-shadow: var(--shadow-md);
     border: 1px solid var(--border-color);
+}
+
+/* Page Content within main content */
+.dj-app-page-content {
+    padding-top: 1rem;
 }
 
 .dj-app-content h1,
@@ -187,8 +206,8 @@ body {
 /* Footer */
 .dj-app-footer {
     text-align: center;
-    margin-top: 3rem;
-    padding: 2rem;
+    margin-top: 2rem;
+    padding: 1.5rem;
     background: var(--surface-color);
     border-radius: 12px;
     box-shadow: var(--shadow-md);
@@ -204,8 +223,9 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .content-area {
-        padding: 1rem;
+        padding: 0.5rem 1rem;
         margin: 0;
+        padding-top: 0.5rem;
     }
     
     .dj-app-site-title {
@@ -231,6 +251,15 @@ body {
     
     .dj-app-content {
         padding: 1.5rem;
+    }
+
+    .dj-app-integrated-menu {
+        margin-bottom: 1rem;
+        padding: 0.5rem 0;
+    }
+
+    .dj-app-page-content {
+        padding-top: 0.5rem;
     }
 }
 
