@@ -1,8 +1,5 @@
-<pre>
-======================================================================================
-TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with a simple plugin and theme structure.
+<textarea rows="20" cols="50" style="width: 100%;" readonly="readonly">TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with a simple plugin and theme structure.
 If you're interested fill out the form: <a href="https://forms.gle/Ku38XS7xB7M1u5D59" target="_blank">https://forms.gle/Ku38XS7xB7M1u5D59</a>
-======================================================================================
 
 WordPress is a great platform and even though it can solve 80% of the web development challenges it may not be the optimal solution for every project.
 I really love simplicity and minimalism, so I decided to build a new open source app that's fast, lean and inspired by some of the awesome WordPress features.
@@ -52,4 +49,4 @@ Donations are not a sustainable business model for most projects.
 
 Slavi Marinov,
 Orbisius
-</pre>
+</textarea>
