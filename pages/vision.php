@@ -1,5 +1,5 @@
 <pre class="text-pre-content">
-    TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with a simple plugin and theme structure.
+TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with a simple plugin and theme structure.
 If you're interested fill out the form: <a href="https://forms.gle/Ku38XS7xB7M1u5D59" target="_blank">https://forms.gle/Ku38XS7xB7M1u5D59</a>
 
 WordPress is a great platform and even though it can solve 80% of the web development challenges it may not be the optimal solution for every project.
