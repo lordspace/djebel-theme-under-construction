@@ -4,7 +4,7 @@ TL;DR; Let's create a fast app/CMS inspired by WordPress' best features and with
 If you're interested fill out the form: <a href="https://forms.gle/Ku38XS7xB7M1u5D59" target="_blank">https://forms.gle/Ku38XS7xB7M1u5D59</a>
 ======================================================================================
 
-WordPress is a great platform and even though it can solve 80% of the web development challenges it may not be a single solution for everything.
+WordPress is a great platform and even though it can solve 80% of the web development challenges it may not be the optimal solution for every project.
 I really love simplicity and minimalism so I decided to build a new open source app that's fast, lean and inspired by some of the awesome WordPress features.
 
 For example: hooks, shortcodes, simple plugin and theme structure
