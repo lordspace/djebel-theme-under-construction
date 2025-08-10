@@ -2,6 +2,7 @@
 
 $obj = new QQ_Theme();
 
+//Dj_App_Hooks::addFilter('app.core.request.segments', [ $obj, 'maybeCorrectSegments' ]);
 Dj_App_Hooks::addFilter('app.core.request.web_path', [ $obj, 'updateWebPath' ]);
 Dj_App_Hooks::addFilter('app.themes.current_page', [ $obj, 'maybeAddLangPrefix' ]);
 
@@ -19,6 +20,20 @@ class QQ_Theme {
         }
 
         return $web_path;
+    }
+
+    /**
+     * @param string $web_path
+     * @return string
+     */
+    public function maybeCorrectSegments($segments)
+    {
+        // rm from segments so
+        if (!empty($segments[0]) && in_array($segments[0], [ 'en', 'bg'])) {
+            array_shift($segments);
+        }
+
+        return $segments;
     }
 
     /**
