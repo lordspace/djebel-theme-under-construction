@@ -53,7 +53,7 @@ $page_obj = Dj_App_Page::getInstance();
 
         <!-- Footer -->
         <footer class="dj-app-footer">
-            <p>&copy; <?php echo date('Y'); ?> <?php echo $page_obj->esc_site_title; ?>. All rights reserved.</p>
+            <p>&copy; <?php echo date('Y'); ?> <?php echo $page_obj->esc_site_title; ?>. All rights reserved. Powered by Djebel</p>
         </footer>
 
     </div>
