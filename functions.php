@@ -17,6 +17,7 @@ class QQ_Theme {
     public function maybeAddLangPrefix($page)
     {
         // if it doesn't have a prefix add it. this is for loading the file
+        // it's either en or en/page
         if (!preg_match('#^/?(en|bg)(/|$)#si', $page, $matches)) {
             $page = 'en/' . $page;
         }
