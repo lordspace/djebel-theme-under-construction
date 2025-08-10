@@ -3,6 +3,7 @@
 $obj = new QQ_Theme();
 
 Dj_App_Hooks::addFilter('app.core.request.web_path', [ $obj, 'updateWebPath' ]);
+Dj_App_Hooks::addFilter('app.core.request.page.get', [ $obj, 'fixHomePage' ]);
 Dj_App_Hooks::addFilter('app.themes.current_page', [ $obj, 'maybeAddLangPrefix' ]);
 
 Dj_App_Hooks::addAction('app.core.theme.setup', [ $obj, 'maybeRedirect' ]);
@@ -31,6 +32,20 @@ class QQ_Theme {
         // it's either en or en/page
         if (!preg_match('#^/?(en|bg)(/|$)#si', $page, $matches)) {
             $page = 'en/' . $page;
+        }
+
+        return $page;
+    }
+
+    /**
+     * So the nav can work in multilingual setup
+     * @param string $page
+     * @return string
+     */
+    public function fixHomePage($page)
+    {
+        if ($page == 'en') {
+            $page = '';
         }
 
         return $page;
