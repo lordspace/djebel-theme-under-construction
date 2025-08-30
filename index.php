@@ -47,7 +47,7 @@ $page_obj = Dj_App_Page::getInstance();
 
             <!-- Page Content -->
             <div class="dj-app-page-content">
-                [djebel_content]
+                [djebel_page_content]
             </div>
         </main>
 
