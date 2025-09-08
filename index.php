@@ -41,7 +41,7 @@ $page_obj = Dj_App_Page::getInstance();
             <!-- Navigation Menu (now inside content) -->
             <div class="dj-app-integrated-menu">
                 <nav class="dj-app-menu-container">
-                    [djebel_nav]
+                    [djebel_page_nav]
                 </nav>
             </div>
 
